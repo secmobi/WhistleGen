@@ -7,13 +7,14 @@ A 3D whistle model generator forked from Josef Prusa's version.
 1. edit the "data.txt" with initials you want to be on whistles
 2. ./generator.py
 3. compile the whistleN.scad with OpenSCAD and export as STL files
-4. use a slicer (e.g. Slic3r) to slice the STL files and print them by a 3D printer
+4. use Slic3r to slice the STL files with the config file and print them by a 3D printer
 
 # What're differences with the origin branch?
 
 - fixed errors in generated SCAD files
 - rewrited generator with more clear code
 - deleted unnecessary files
+- added a Slic3r config file which especially optimized for printing whistles in a RepRap printer without cooling fan
 
 # Author
 Claud Xiao
